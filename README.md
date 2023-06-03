@@ -21,5 +21,7 @@ Run the script.
 ```
 This will automatically download the latest stable version of Google Chrome and add it, along with your .plist file, to a package archive, ready to be installed on your user's systems. The script will also print the application version and SHA-256 hash for use with MDM deployments or pakage managers.
 
-### Locate .pkg file
+## Locate .pkg file
 The final .pkg file can be found at the path `managedchrome/googlechrome.pkg`.
+
+*An `app.icns` file has also been included for quick access.*
