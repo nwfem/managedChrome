@@ -1,5 +1,5 @@
-# managedChrome
-Script to automatically download, config, and package the latest stable version of Google Chrome for easy deployment and remote cloud management.
+# managedChrome (macOS Only)
+Script to automatically download, config, and package the latest stable version of Google Chrome for easy deployment and remote cloud management on macOS devices.
 
 ## Just clone, config, and run
 ### Clone
