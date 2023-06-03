@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CloudManagementEnrollmentToken</key>
+	<string>4d42282c-751f-4c4b-b1d5-bad6e4a3babe</string>
+	<key>CloudManagementEnrollmentMandatory</key>
+	<true/>
+</dict>
+</plist>

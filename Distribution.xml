@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-gui-script minSpecVersion="2">
+	<title>Google Chrome</title>
+	<options customize="never" require-scripts="false" hostArchitectures="x86_64,arm64"/>
+	<domains enable_anywhere="false" enable_currentUserHome="false" enable_localSystem="true"/>
+	<volume-check>
+		<allowed-os-versions>
+			<os-version min="10.13"/>
+		</allowed-os-versions>
+	</volume-check>
+	<choices-outline>
+		<line choice="main"/>
+	</choices-outline>
+	<choice id="main" visible="false">
+		<pkg-ref id="com.google.Chrome">
+			<must-close>
+				<app id="com.google.Chrome"/>
+			</must-close>
+		</pkg-ref>
+		<pkg-ref id="com.google.Chrome.management"/>
+	</choice>
+	<pkg-ref id="com.google.Chrome" version="$chromeVersion" onConclusion="none">chrome.pkg</pkg-ref>
+	<pkg-ref id="com.google.Chrome.management" version="$configVersion" onConclusion="none">management.pkg</pkg-ref>
+</installer-gui-script>
